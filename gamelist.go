@@ -18,7 +18,7 @@ type Game struct {
 
 type byTitle []*Game
 
-// byTitle implements the sort.Interface by defining three methods Len(), Less() and Swap on the type
+// byTitle implements the sort.Interface by defining three methods Len(), Less() and Swap() on the type
 
 // sort.Interface
 // type Interface interface {
